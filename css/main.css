@@ -330,7 +330,7 @@ textarea {
   }
 }
 
-.page-nav__menu-container {
+.menu-container {
   display: none;
   position: absolute;
   min-width: 480px;
@@ -340,7 +340,7 @@ textarea {
   background-color: #fff;
 }
 
-.page-nav__menu-container.is-open {
+.menu-container.is-open {
   display: block;
 }
 
