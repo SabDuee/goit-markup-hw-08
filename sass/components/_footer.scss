@@ -135,3 +135,18 @@
     margin-bottom: 8px;
   }
 }
+.social-box__title {
+  @media screen and(max-width: 767px) {
+    margin-top: 60px;
+  }
+}
+.social-box__item {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+.footer-form__button {
+  @media screen and(max-width: 767px) {
+    margin-top: 20px;
+  }
+}

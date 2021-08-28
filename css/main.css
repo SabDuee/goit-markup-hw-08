@@ -1038,7 +1038,7 @@ button {
 }
 
 @media screen and (max-width: 1200px) {
-  .section__title {
+  .section__title:not(:last-child) {
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 1.18;
@@ -1351,6 +1351,24 @@ textarea {
 @media screen and (max-width: 767px) {
   .footer-address__item {
     margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-box__title {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-box__item {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-form__button {
+    margin-top: 20px;
   }
 }
 
