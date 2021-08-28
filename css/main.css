@@ -1308,8 +1308,10 @@ button {
   display: flex;
 }
 
-.clients__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .clients__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .client__link {
@@ -1379,13 +1381,26 @@ textarea {
   }
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .info {
@@ -1495,12 +1510,27 @@ textarea {
   margin-right: 0px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .form-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
 .mail-box__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .mail-box__title {
+    margin-top: 60px;
+  }
 }
 
 .form-input__mail {
@@ -1518,6 +1548,12 @@ textarea {
   margin-right: 10px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .form-input__mail {
+    margin-bottom: 20px;
+  }
 }
 
 .form-input__mail:hover {
@@ -1566,6 +1602,12 @@ textarea {
 }
 
 @media screen and (max-width: 767px) {
+  .footer-address__item {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-address__item {
     margin-bottom: 8px;
   }
