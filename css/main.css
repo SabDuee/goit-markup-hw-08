@@ -919,6 +919,12 @@ button {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1186,6 +1192,12 @@ button {
 @media screen and (max-width: 767px) {
   .our-team__item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .our-team__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -1640,6 +1652,17 @@ textarea {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .tablet-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 

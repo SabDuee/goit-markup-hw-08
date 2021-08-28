@@ -191,6 +191,10 @@
     justify-content: center;
     text-align: center;
   }
+  @media screen and(min-width:1201px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 .address-box,
 .social-box {
