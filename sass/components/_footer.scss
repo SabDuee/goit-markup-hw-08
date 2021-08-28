@@ -124,3 +124,14 @@
 .address-box {
   margin-right: 70px;
 }
+.footer-container,
+.form-box {
+  @media screen and(max-width: 767px) {
+    display: block;
+  }
+}
+.footer-address__item {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 8px;
+  }
+}

@@ -30,5 +30,17 @@
 .features {
   @media screen and(max-width: 767px) {
     max-width: 480px;
+    display: block;
+  }
+}
+
+.feature__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+.hero {
+  @media screen and(max-width: 767px) {
+    background-image: url(/images/Header.jpg);
   }
 }

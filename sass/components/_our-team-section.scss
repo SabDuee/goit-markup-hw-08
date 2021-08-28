@@ -70,3 +70,26 @@
 .team-icon {
   fill: currentColor;
 }
+.our-team {
+  @media screen and(max-width: 767px) {
+    display: block;
+    margin-top: 30px;
+  }
+}
+.our-team__item:not(:last-child) {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+.section__title:not(:last-child) {
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+.section__title: (: last-child) {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}

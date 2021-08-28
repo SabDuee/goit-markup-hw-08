@@ -37,3 +37,8 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+.section__work--nopaddingtop {
+  @media screen and(max-width: 767px) {
+    display: none;
+  }
+}

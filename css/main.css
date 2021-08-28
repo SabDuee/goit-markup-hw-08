@@ -861,6 +861,19 @@ button {
 @media screen and (max-width: 767px) {
   .features {
     max-width: 480px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url(/images/Header.jpg);
   }
 }
 
@@ -908,6 +921,12 @@ button {
 .work__container--title {
   color: #ffffff;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .section__work--nopaddingtop {
+    display: none;
+  }
 }
 
 .section__title {
@@ -1003,6 +1022,27 @@ button {
 
 .team-icon {
   fill: currentColor;
+}
+
+@media screen and (max-width: 767px) {
+  .our-team {
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-team__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
 }
 
 .section__link {
@@ -1120,6 +1160,20 @@ button {
 
 textarea {
   resize: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .clients {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients__item {
+    margin: 15px;
+  }
 }
 
 .footer-container {
@@ -1285,6 +1339,19 @@ textarea {
 
 .address-box {
   margin-right: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container,
+  .form-box {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-address__item {
+    margin-bottom: 8px;
+  }
 }
 
 .webstudio-header {

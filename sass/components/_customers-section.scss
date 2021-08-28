@@ -34,3 +34,14 @@
 textarea {
   resize: none;
 }
+.clients {
+  @media screen and(max-width: 1200px) {
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+.clients__item {
+  @media screen and(max-width: 767px) {
+    margin: 15px;
+  }
+}
