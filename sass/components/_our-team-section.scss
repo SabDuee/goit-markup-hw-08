@@ -14,9 +14,7 @@
   margin-top: 50px;
   display: flex;
 }
-.our-team__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .our-team__box {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -86,5 +84,11 @@
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 1.18;
+  }
+}
+.our-team__img {
+  @media screen and(max-width: 767px) {
+    width: 450px;
+    height: 460px;
   }
 }

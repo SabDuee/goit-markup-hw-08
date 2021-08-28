@@ -1,9 +1,7 @@
 .features {
   display: flex;
 }
-.feature__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features__title {
   font-weight: 700;
   text-transform: uppercase;
@@ -39,8 +37,9 @@
     margin-bottom: 30px;
   }
 }
-.hero {
+.feature__box {
   @media screen and(max-width: 767px) {
-    background-image: url(/images/Header.jpg);
+    width: 450px;
+    height: 120px;
   }
 }

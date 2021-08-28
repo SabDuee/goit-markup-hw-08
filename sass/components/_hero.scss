@@ -243,7 +243,18 @@ button {
 }
 
 .hero {
-  @media screen and(max-width: 767px) {
-    width: 480px;
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/Header@2x.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 1),
+      screen and (min-resolution: 96dpi),
+      screen and (min-resolution: 1dppx) {
+      .hero {
+        background-image: url(../images/Header.jpg);
+      }
+    }
   }
 }

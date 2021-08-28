@@ -157,11 +157,24 @@
 .menu-button .icon-cross {
   display: none;
 }
-.menu-button .is-open .icon-cross {
-  display: block;
-}
-.menu-button .is-open .icon-menu {
+.menu-container {
   display: none;
+  position: absolute;
+  min-width: 480px;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+
+  &.is-open {
+    display: block;
+  }
+}
+.is-open .icon-cross {
+  display: none;
+}
+.is-open .icon-menu {
+  display: block;
 }
 .header {
   @media screen and (max-width: 767px) {
@@ -181,19 +194,7 @@
     width: 480px;
   }
 }
-.menu-container {
-  display: none;
-  position: absolute;
-  min-width: 480px;
-  width: 100%;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
 
-  &.is-open {
-    display: block;
-  }
-}
 .site-nav--mobile {
   @media screen and(max-width: 767px) {
     margin-bottom: 302px;

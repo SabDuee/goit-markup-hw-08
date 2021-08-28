@@ -8,6 +8,12 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .section__title {
   color: var(--color-black--);
