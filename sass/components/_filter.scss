@@ -1,0 +1,116 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-element__item {
+  padding: 24px 20px;
+}
+
+.gallery__item {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
+
+  flex-basis: calc((100% - 60px) / 3);
+
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.gallery__item .product__item {
+  justify-content: center;
+
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
+.product-thumb__text {
+  color: #ffffff;
+}
+
+.gallery__item:nth-child(3n) {
+  margin-right: 0px;
+}
+.gallery__item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+.product__link:hover .product-thumb__box,
+.product__link:focus .product-thumb__box {
+  transform: translateY(0);
+}
+.product__link {
+  display: block;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.product__link:hover,
+.product__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.flex-element__item {
+  padding: 24px 20px;
+}
+
+.filter {
+  display: flex;
+  color: #212121;
+  font-weight: 500;
+  line-height: 1.4;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter__element:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filter__item:hover,
+.filter__item:focus {
+  color: var(--color-hover--);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.pointer-cursor {
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+}
+.filter__button:focus,
+.filter__button:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+.filter__button {
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, box-shadow;
+}

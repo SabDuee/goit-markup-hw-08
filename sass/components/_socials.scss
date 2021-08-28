@@ -1,0 +1,45 @@
+.section__link {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.modal-button:hover,
+.modal-button:focus {
+  fill: #2196f3;
+}
+.section__link {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.team__link:not(:last-child) {
+  margin-right: 10px;
+}
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  color: #afb1b8;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  transition-property: color, background-color;
+
+  &:hover,
+  &:focus {
+    background: #2196f3;
+    color: #ffffff;
+  }
+}
+
+.social__icon {
+  fill: currentColor;
+}

@@ -1,0 +1,33 @@
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section__title {
+  color: var(--color-black--);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.contaimner {
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
+}

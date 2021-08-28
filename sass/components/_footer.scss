@@ -1,0 +1,126 @@
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.info {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.info-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  display: inline-block;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.social-box__link:not(:last-child) {
+  margin-right: 10px;
+}
+.social-box__title {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+}
+.social-box__item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-box {
+  margin-right: 93px;
+}
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  color: #afb1b8;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  transition-property: color, background-color;
+
+  &:focus,
+  &:hover {
+    background: #2196f3;
+    color: #ffffff;
+  }
+}
+.team-icon {
+  fill: currentColor;
+}
+
+.socials__item {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.form-box {
+  display: flex;
+  cursor: default;
+  margin-right: 0px;
+}
+.mail-box__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.form-input__mail {
+  border: 1px solid #ffffff4d;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  color: #ffffff;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 10px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input__mail:hover {
+  border: 1px solid #2196f3;
+}
+.form-input__mail:focus {
+  border: 1px solid #2196f3;
+}
+.footer-form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: 0;
+  border-color: transparent;
+  background: #2196f3;
+
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.form-box__item {
+  margin-left: 10px;
+}
+.address-box {
+  margin-right: 70px;
+}

@@ -1,0 +1,37 @@
+.webstudio-header {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+}
+.color__web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+.color__studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-black--);
+}
+.logo {
+  text-decoration: none;
+  list-style-type: none;
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+.footer-studio {
+  color: #ffffff;
+}
