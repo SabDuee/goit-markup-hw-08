@@ -171,8 +171,8 @@
 .menu-container {
   display: none;
   position: absolute;
-  min-width: 480px;
-  width: 100%;
+
+  width: 100vw;
   top: 100%;
   left: 0;
   background-color: #fff;
@@ -334,6 +334,11 @@
   }
 
   @media screen and(min-width: 768px) {
+    display: none;
+  }
+}
+.menu-container {
+  @media screen and(min-width:768px) and(max-width:1200px) {
     display: none;
   }
 }

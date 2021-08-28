@@ -150,3 +150,26 @@
     margin-top: 20px;
   }
 }
+.tablet-footer {
+  @media screen and(min-width: 768px) and(max-width:1200px) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.address-box,
+.social-box {
+  @media screen and(min-width: 768px) and(max-width:1200px) {
+    display: block;
+  }
+}
+.social-box {
+  @media screen and(min-width: 768px) and(max-width:1200px) {
+    margin-left: 165px;
+  }
+}
+.form-box {
+  @media screen and(min-width: 768px) and(max-width:1200px) {
+    display: block;
+  }
+}
