@@ -9,6 +9,17 @@
     margin-right: auto;
     margin-left: auto;
   }
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    .menu-button {
+      display: none;
+    }
+  }
+  .contacts {
+    @media screen and(min-width: 768px) and(max-width: 1200px) {
+      margin-left: 84px;
+      display: block;
+    }
+  }
 }
 .container--padding {
   padding-top: 24px;

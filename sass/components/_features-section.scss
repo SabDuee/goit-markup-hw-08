@@ -30,6 +30,9 @@
     max-width: 480px;
     display: block;
   }
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    display: flex;
+  }
 }
 
 .feature__item:not(:last-child) {
@@ -41,5 +44,17 @@
   @media screen and(max-width: 767px) {
     width: 450px;
     height: 120px;
+  }
+}
+.feature__item {
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+}
+.container {
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    width: 768px;
   }
 }

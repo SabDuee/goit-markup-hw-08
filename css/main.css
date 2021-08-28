@@ -1,3 +1,8 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 :root {
   --color-hover--: #2196f3;
   --color-black--: #212121;
@@ -74,6 +79,20 @@ textarea {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .section__title {
   color: var(--color-black--);
   font-weight: bold;
@@ -92,9 +111,26 @@ textarea {
   margin: -1px;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 @media screen and (max-width: 767px) {
-  .contaimner {
+  .container {
     width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 
@@ -115,6 +151,19 @@ textarea {
     width: 480px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header .menu-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header .contacts {
+    margin-left: 84px;
+    display: block;
   }
 }
 
@@ -876,6 +925,14 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .feature__item:not(:last-child) {
     margin-bottom: 30px;
@@ -886,6 +943,22 @@ button {
   .feature__box {
     width: 450px;
     height: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .feature__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-preferred-size: calc((100% - 2 * 30px) / 2);
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 768px;
   }
 }
 
@@ -1602,6 +1675,50 @@ textarea {
 @media screen and (max-width: 767px) {
   .filter__element {
     margin: 8px 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item {
+    -ms-flex-preferred-size: calc((100% - 2 * 30px) / 2);
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+  .gallery__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .gallery {
+    margin: -15px;
+  }
+  .gallery:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product__image {
+    width: 450px;
+    height: 294px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .product__image {
+    width: 354px;
+    height: 294px;
   }
 }
 
