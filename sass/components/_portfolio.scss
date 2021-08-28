@@ -115,9 +115,3 @@
     box-sizing: border-box;
   }
 }
-.product__link {
-  @media screen and(min-width: 768px) and(max-width:1200px) {
-    flex-direction: column;
-    display: flex;
-  }
-}

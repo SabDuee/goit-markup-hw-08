@@ -1,5 +1,12 @@
 .features {
   display: flex;
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .features__title {
