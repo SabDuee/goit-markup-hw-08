@@ -30,6 +30,13 @@
     border: 1px solid #2196f3;
     color: #2196f3;
   }
+  @media screen and(max-width:767px) {
+    width: 195px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
 textarea {
   resize: none;
