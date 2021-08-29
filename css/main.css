@@ -160,7 +160,6 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header .contacts {
-    margin-left: 84px;
     display: block;
   }
 }
@@ -1891,7 +1890,6 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1901,6 +1899,18 @@ textarea {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .filter {
+    margin-bottom: 50px;
   }
 }
 
@@ -1969,12 +1979,32 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .gallery__item {
+  .gallery__item:nth-child(1) {
     margin-right: 25px;
-    margin-bottom: 25px;
   }
-  .gallery__item:last-child {
-    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item:nth-child(3) {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item:nth-child(5) {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item:nth-child(7) {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item:nth-child(9) {
+    margin-right: 25px;
   }
 }
 
@@ -1985,15 +2015,6 @@ textarea {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .gallery {
-    margin: -15px;
-  }
-  .gallery:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -2148,17 +2169,17 @@ textarea {
 }
 
 @media screen and (max-width: 767px) {
-  .gallery__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .gallery__item {
     margin-right: 0px;
     border: 1px solid #eeeeee;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .gallery__item {
+    margin-bottom: 25px;
   }
 }
 /*# sourceMappingURL=main.css.map */
