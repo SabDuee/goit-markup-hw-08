@@ -114,6 +114,7 @@
 }
 
 .contacts-icon {
+  fill: #757575;
   @media screen and(min-width:1201px) {
     margin-right: 10px;
   }
@@ -378,5 +379,6 @@
   @media screen and(min-width:768px) and(max-width:1200px) {
     margin-left: 0px;
     display: flex;
+    margin-top: 10px;
   }
 }
