@@ -14,6 +14,7 @@
       display: none;
     }
   }
+
   .contacts {
     @media screen and(min-width: 768px) and(max-width: 1200px) {
       margin-left: 84px;
@@ -88,6 +89,7 @@
 .navigation__link .navigation__link--current {
   position: relative;
 }
+
 .contacts {
   font-weight: 500;
   line-height: 1.4;
@@ -172,9 +174,7 @@
     margin-left: auto;
   }
 }
-.menu-button .icon-cross {
-  display: none;
-}
+
 .menu-container {
   display: none;
   position: absolute;
@@ -191,9 +191,24 @@
 .is-open .icon-cross {
   display: none;
 }
+.icon-cross {
+  .menu-button:hover &,
+  .menu-button:focus & {
+    fill: $accent-color;
+  }
+}
+.icon-menu {
+  display: none;
+
+  .menu-button:hover &,
+  .menu-button:focus & {
+    fill: $accent-color;
+  }
+}
 .is-open .icon-menu {
   display: block;
 }
+
 .header {
   @media screen and (max-width: 767px) {
     display: -webkit-box;
