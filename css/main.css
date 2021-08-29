@@ -288,8 +288,19 @@ textarea {
 }
 
 .contacts-icon {
-  margin-right: 10px;
   display: block;
+}
+
+@media screen and (min-width: 1201px) {
+  .contacts-icon {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .contacts-icon {
+    margin-right: 8px;
+  }
 }
 
 .contacts__link {
@@ -324,6 +335,17 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .current.current {

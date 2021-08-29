@@ -115,8 +115,15 @@
 }
 
 .contacts-icon {
-  margin-right: 10px;
+  @media screen and(min-width:1201px) {
+    margin-right: 10px;
+  }
+
   display: block;
+
+  @media screen and(min-width:768px) and(max-width:1200px) {
+    margin-right: 8px;
+  }
 }
 
 .contacts__link {
@@ -141,6 +148,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background-color;
+  }
+  @media screen and(min-width:768px) {
+    display: flex;
+    align-items: center;
   }
 }
 
