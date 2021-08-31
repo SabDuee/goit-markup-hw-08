@@ -120,9 +120,9 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, background-color, box-shadow;
 }
-.filter__element {
+.filter__element:nth-child(-n + 3) {
   @media screen and(max-width: 767px) {
-    margin: 8px 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -162,7 +162,7 @@
   }
 }
 .product__image {
-  @media screen and( max-width: 767px) {
+  @media screen and(max-width: 767px) {
     width: 450px;
     height: 294px;
   }
@@ -171,4 +171,7 @@
     width: 354px;
     height: 294px;
   }
+}
+.gallery__item:not(:last-child) {
+  margin-bottom: 30px;
 }
