@@ -96,16 +96,17 @@
     text-align: center;
   }
 }
+.form {
+  @media screen and(min-width:768px) and(max-width:1200px) {
+    margin-top: 60px;
+  }
+}
 .mail-box__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-
-  @media screen and(min-width:768px) and(max-width:1200px) {
-    margin-top: 60px;
-  }
 }
 .form-input__mail {
   border: 1px solid #ffffff4d;

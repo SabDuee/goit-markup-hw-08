@@ -371,16 +371,18 @@ textarea {
     margin: 0;
     padding: 0;
     margin-left: auto;
+    z-index: 1000;
   }
 }
 
 .menu-container {
   display: none;
-  position: absolute;
   z-index: 999;
-  width: 100vw;
-  top: 100%;
+  position: fixed;
+  top: 0;
   left: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -434,6 +436,10 @@ textarea {
     margin-bottom: 302px;
     padding-left: 40px;
   }
+}
+
+.site-nav__item:first-child {
+  padding-top: 48px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1596,18 +1602,18 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .form {
+    margin-top: 60px;
+  }
+}
+
 .mail-box__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .mail-box__title {
-    margin-top: 60px;
-  }
 }
 
 .form-input__mail {
