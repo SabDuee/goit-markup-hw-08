@@ -183,17 +183,20 @@
     margin: 0;
     padding: 0;
     margin-left: auto;
+    z-index: 1000;
   }
 }
 
 .menu-container {
   display: none;
-  position: absolute;
+
   z-index: 999;
 
-  width: 100vw;
-  top: 100%;
+  position: fixed;
+  top: 0;
   left: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #fff;
 
   &.is-open {
@@ -245,6 +248,9 @@
     margin-bottom: 302px;
     padding-left: 40px;
   }
+}
+.site-nav__item:first-child {
+  padding-top: 48px;
 }
 .site-nav__item {
   @media screen and(min-width: 768px) {
