@@ -39,6 +39,10 @@
     box-sizing: border-box;
     border-radius: 4px;
   }
+  @media screen and(min-width: 768px) and(max-width: 1200px) {
+    width: 226px;
+    height: 92px;
+  }
 }
 textarea {
   resize: none;
@@ -47,9 +51,6 @@ textarea {
   @media screen and(max-width: 1200px) {
     flex-wrap: wrap;
     margin: -15px;
-  }
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    justify-content: center;
   }
 }
 
