@@ -1,6 +1,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .flex-element__item {
   padding: 24px 20px;
@@ -125,11 +126,7 @@
     margin-bottom: 15px;
   }
 }
-.filter__element:nth-last-child(-n + 2) {
-  @media screen and(max-width: 767px) {
-    margin-bottom: 40px;
-  }
-}
+
 .gallery__item:nth-child(1) {
   @media screen and(min-width: 768px) and(max-width: 1200px) {
     margin-right: 25px;
@@ -166,11 +163,6 @@
   }
 }
 .product__image {
-  @media screen and(max-width: 767px) {
-    width: 450px;
-    height: 294px;
-  }
-
   @media screen and(min-width: 768px) and(max-width: 1200px) {
     width: 354px;
     height: 294px;
