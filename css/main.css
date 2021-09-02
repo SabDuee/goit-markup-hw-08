@@ -358,7 +358,6 @@ textarea {
 .menu-container {
   display: none;
   position: absolute;
-  min-width: 482px;
   width: 100%;
   top: 90%;
   left: 0px;
