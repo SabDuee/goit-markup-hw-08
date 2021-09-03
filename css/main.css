@@ -3,6 +3,24 @@
   margin-right: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
 :root {
   --color-hover--: #2196f3;
   --color-black--: #212121;
@@ -97,18 +115,6 @@ textarea {
   padding-left: 15px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .container {
-    width: 1200px;
-  }
-}
-
 .header {
   border-bottom: 1px solid #ececec;
   height: 80px;
@@ -123,8 +129,6 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
@@ -148,7 +152,14 @@ textarea {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 .container--padding {
+  width: 100%;
   padding-top: 24px;
   padding-bottom: 25px;
   display: -webkit-box;
@@ -966,16 +977,6 @@ button {
 @media screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 1), screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 1), screen and (min-resolution: 192dpi) and (min-device-pixel-ratio: 1), screen and (min-resolution: 2dppx) and (min-device-pixel-ratio: 1), screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 1), screen and (min-device-pixel-ratio: 2) and (min-resolution: 96dpi), screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 192dpi) and (min-resolution: 96dpi), screen and (min-resolution: 2dppx) and (min-resolution: 96dpi), screen and (min-device-pixel-ratio: 2) and (min-resolution: 1dppx), screen and (min-resolution: 192dpi) and (min-resolution: 1dppx), screen and (min-resolution: 2dppx) and (min-resolution: 1dppx) {
   .hero .hero {
     background-image: url(../images/Header.jpg);
-  }
-}
-
-.mobile-menu {
-  margin-right: 15px;
-}
-
-@media screen and (min-width: 1200px) {
-  .mobile-menu {
-    display: none;
   }
 }
 
