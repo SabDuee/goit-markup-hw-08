@@ -18,14 +18,15 @@
 }
 
 .client__link {
-  display: block;
+  display: flex;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   color: #afb1b8;
-  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 
   transition-duration: 250ms;
