@@ -989,6 +989,14 @@ button {
   }
 }
 
+@media screen and (min-width: 1201px) {
+  .features {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .features__title {
   font-weight: 700;
   text-transform: uppercase;
@@ -1034,13 +1042,6 @@ button {
   }
 }
 
-@media screen and (min-width: 1201px) {
-  .feature__box {
-    width: 270px;
-    height: 120px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .features {
     display: block;
@@ -1079,6 +1080,8 @@ button {
 @media screen and (min-width: 1201px) {
   .feature__item {
     margin: 0px 30px 0px 0px;
+    width: 270px;
+    height: 120px;
   }
 }
 
@@ -1103,6 +1106,14 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (min-width: 1201px) {
+  .works {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .works__item {
@@ -1133,6 +1144,12 @@ button {
 @media screen and (max-width: 767px) {
   .section__work--nopaddingtop {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .section__work--nopaddingtop {
+    margin-top: 94px;
   }
 }
 
@@ -1386,6 +1403,14 @@ button {
   display: flex;
 }
 
+@media screen and (min-width: 1201px) {
+  .clients {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .clients__item:not(:last-child) {
     margin-right: 30px;
@@ -1418,7 +1443,7 @@ button {
 
 @media screen and (max-width: 767px) {
   .client__link {
-    width: 195px;
+    width: 100%;
     height: 92px;
     border: 1px solid #afb1b8;
     -webkit-box-sizing: border-box;
@@ -1455,6 +1480,8 @@ textarea {
 @media screen and (max-width: 767px) {
   .clients__item {
     margin: 15px;
+    text-align: center;
+    width: calc((100% - 30px * 2) / 2);
   }
 }
 
@@ -1622,6 +1649,7 @@ textarea {
   border-radius: 4px;
   background: #2f303a;
   color: #ffffff;
+  width: 100%;
   height: 50px;
   padding-left: 16px;
   margin-right: 10px;
@@ -1632,6 +1660,12 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .form-input__mail {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .form-input__mail {
+    width: 358px;
   }
 }
 

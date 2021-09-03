@@ -7,6 +7,9 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  @media screen and(min-width:1201px) {
+    justify-content: center;
+  }
 }
 
 .features__title {
@@ -39,10 +42,6 @@
   @media screen and(max-width:767px) {
     border-radius: 4px;
   }
-  @media screen and(min-width:1201px) {
-    width: 270px;
-    height: 120px;
-  }
 }
 .features {
   @media screen and(max-width: 767px) {
@@ -71,6 +70,8 @@
   }
   @media screen and(min-width:1201px) {
     margin: 0px 30px 0px 0px;
+    width: 270px;
+    height: 120px;
   }
 }
 .feature__item:last-child {

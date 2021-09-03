@@ -8,6 +8,10 @@
 .works {
   margin-top: 50px;
   display: flex;
+
+  @media screen and(min-width:1201px) {
+    justify-content: center;
+  }
 }
 .works__item {
   position: relative;
@@ -35,5 +39,8 @@
 .section__work--nopaddingtop {
   @media screen and(max-width: 767px) {
     display: none;
+  }
+  @media screen and(min-width:1201px) {
+    margin-top: 94px;
   }
 }
