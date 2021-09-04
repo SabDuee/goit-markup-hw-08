@@ -159,7 +159,6 @@ textarea {
 }
 
 .container--padding {
-  width: 100%;
   padding-top: 24px;
   padding-bottom: 25px;
   display: -webkit-box;
@@ -168,6 +167,12 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .container--padding {
+    width: 100%;
+  }
 }
 
 .main-navigation {
@@ -278,15 +283,15 @@ textarea {
   display: block;
 }
 
-@media screen and (min-width: 1201px) {
-  .contacts-icon {
-    margin-right: 10px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .contacts-icon {
     margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .contacts-icon {
+    margin-right: 10px;
   }
 }
 
@@ -1039,16 +1044,16 @@ button {
   padding-bottom: 25px;
 }
 
+@media screen and (max-width: 767px) {
+  .feature__box {
+    border-radius: 4px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .feature__box {
     width: 354px;
     height: 120px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .feature__box {
-    border-radius: 4px;
   }
 }
 

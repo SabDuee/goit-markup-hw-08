@@ -29,12 +29,14 @@
   }
 }
 .container--padding {
-  width: 100%;
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
 
   align-items: center;
+  @media screen and(max-width:1200px) {
+    width: 100%;
+  }
 }
 .main-navigation {
   display: flex;
@@ -117,14 +119,14 @@
 
 .contacts-icon {
   fill: #757575;
-  @media screen and(min-width:1201px) {
-    margin-right: 10px;
-  }
 
   display: block;
 
   @media screen and(min-width:768px) and(max-width:1200px) {
     margin-right: 8px;
+  }
+  @media screen and(min-width:1201px) {
+    margin-right: 10px;
   }
 }
 
