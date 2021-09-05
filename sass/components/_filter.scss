@@ -1,8 +1,3 @@
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
 .flex-element__item {
   padding: 24px 20px;
 }
@@ -58,14 +53,13 @@
   font-weight: 500;
   line-height: 1.4;
   justify-content: center;
+  margin-bottom: 40px;
 
   @media screen and(max-width: 767px) {
     flex-wrap: wrap;
     justify-content: start;
   }
-  @media screen and(min-width: 768px) {
-    margin-bottom: 30px;
-  }
+
   @media screen and(min-width: 1201px) {
     margin-bottom: 50px;
   }
@@ -128,29 +122,29 @@
 }
 
 .gallery__item:nth-child(1) {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-right: 25px;
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-right: 22px;
   }
 }
 
 .gallery__item:nth-child(3) {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-right: 25px;
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-right: 22px;
   }
 }
 .gallery__item:nth-child(5) {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-right: 25px;
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-right: 22px;
   }
 }
 .gallery__item:nth-child(7) {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-right: 25px;
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-right: 22px;
   }
 }
 .gallery__item:nth-child(9) {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-right: 25px;
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-right: 22px;
   }
 }
 .gallery {
@@ -159,15 +153,15 @@
     flex-wrap: wrap;
   }
 
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
   }
 }
 .product__image {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
     width: 354px;
     height: 294px;
   }
 }
 .gallery__item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }

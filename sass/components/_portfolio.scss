@@ -97,23 +97,6 @@
     transform: translateY(0);
   }
 }
-.gallery {
-  @media screen and(max-width: 767px) {
-    display: block;
-  }
-}
-
-.gallery__item {
-  @media screen and(max-width: 767px) {
-    margin-right: 0px;
-    border: 1px solid #eeeeee;
-    box-sizing: border-box;
-  }
-  @media screen and(min-width:1201px) {
-  }
-}
-.gallery__item {
-  @media screen and(min-width: 768px) and(max-width: 1200px) {
-    margin-bottom: 25px;
-  }
+.product {
+  border: 1px solid #eeeeee;
 }
