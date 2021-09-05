@@ -62,6 +62,8 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 button,
@@ -73,11 +75,6 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .section {
@@ -1004,7 +1001,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .features {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1095,8 +1092,6 @@ button {
 @media screen and (min-width: 1201px) {
   .feature__item {
     margin: 0px 30px 0px 0px;
-    width: 270px;
-    height: 120px;
   }
 }
 
@@ -1159,12 +1154,6 @@ button {
 @media screen and (max-width: 767px) {
   .section__work--nopaddingtop {
     display: none;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .section__work--nopaddingtop {
-    margin-top: 94px;
   }
 }
 
